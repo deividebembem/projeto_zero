@@ -1,0 +1,35 @@
+body{
+    /* background-color: navajowhite; */
+    background-image: url(assets/beira_de_piscina.jpg);
+    /* fixa a imagem mesmo com zoom */
+    background-attachment: fixed;
+    /* A imagem cobre toda a página, e mantém a proporção */
+    background-size:cover;
+    /* Centraliza a imagem */
+    background-position: center;
+}
+
+h2 {
+    text-align:left;
+    color: black;
+    font-family: serif;
+}
+p {
+text-align:center ;
+color: salmon;
+font-size: 18px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color:antiquewhite;
+    border-radius: 13px;
+}
+
+
+a{
+    display: block;
+    color:red;
+    text-decoration: none;
+}

@@ -1,0 +1,35 @@
+body{
+    /* background-color: navajowhite; */
+    background-image: url(assets/emicida_com_cachorros.jpg);
+    /* fixa a imagem mesmo com zoom */
+    background-attachment: fixed;
+    /* A imagem cobre toda a página, e mantém a proporção */
+    background-size: cover;
+    /* Centraliza a imagem */
+    background-position: center;
+}
+h2 {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+text-align:center ;
+color: green;
+font-size: 15px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color:azure;
+    border-radius: 10px;
+}
+
+
+a{
+    display: block;
+    color: brown;
+    text-decoration: none;
+}
+
