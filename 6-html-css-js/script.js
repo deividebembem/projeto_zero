@@ -27,3 +27,10 @@ for (let i=1; i <=10; i++) {
 const btnGerar = document.getElementById('btn-gerar')
 // faz a função gerarTabuada() ser executada quando clicar
 btnGerar.addEventListener('click', gerarTabuada)
+
+const numeroInput = document.getElementById('numero-input')
+numeroInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        gerarTabuada()
+    }
+})
